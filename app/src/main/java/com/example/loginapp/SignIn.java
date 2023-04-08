@@ -19,7 +19,6 @@ import com.example.loginapp.databinding.ActivitySigninBinding;
 public class SignIn extends AppCompatActivity {
 
     ActivitySigninBinding binding;
-
     //boolean checkUser = false;
     //boolean checkPassword = false;
 
