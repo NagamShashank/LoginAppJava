@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="@dimen/_20sdp"
-                android:text="Sign Up"
+                android:text="Sign  Up"
                 android:textColor="@color/Red"
                 android:textSize="@dimen/_18ssp"
                 android:textStyle="bold" />
