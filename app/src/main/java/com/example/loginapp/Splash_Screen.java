@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
+import com.example.loginapp.MyPermissions.Permissions;
+
 public class Splash_Screen extends AppCompatActivity {
 
     @Override
@@ -20,7 +22,7 @@ public class Splash_Screen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(getApplicationContext(),SoftwareLanguages.class);
+                Intent intent = new Intent(getApplicationContext(), Permissions.class);
                 startActivity(intent);
                 finish();
             }
